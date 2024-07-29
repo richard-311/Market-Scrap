@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación de Precios de Productos</title>
+</head>
+<body>
+    <h1>Comparación de Precios de Productos</h1>
+    
+    <form action="/comparar" method="post">
+        <fieldset>
+            <legend>Producto 1</legend>
+            <label for="producto1-nombre">Nombre:</label>
+            <input type="text" id="producto1-nombre" name="producto1-nombre" required><br><br>
+            
+            <label for="producto1-precio">Precio:</label>
+            <input type="number" id="producto1-precio" name="producto1-precio" required><br><br>
+            
+            <label for="producto1-tienda">Tienda:</label>
+            <input type="text" id="producto1-tienda" name="producto1-tienda" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Producto 2</legend>
+            <label for="producto2-nombre">Nombre:</label>
+            <input type="text" id="producto2-nombre" name="producto2-nombre" required><br><br>
+            
+            <label for="producto2-precio">Precio:</label>
+            <input type="number" id="producto2-precio" name="producto2-precio" required><br><br>
+            
+            <label for="producto2-tienda">Tienda:</label>
+            <input type="text" id="producto2-tienda" name="producto2-tienda" required><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Comparar">
+    </form>
+</body>
+</html>
